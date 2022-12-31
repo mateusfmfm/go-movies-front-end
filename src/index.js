@@ -9,6 +9,7 @@ import GraphQL from "./components/GraphQL";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import ManageCatalogue from "./components/ManageCatalogue";
+import Movie from "./components/Movie";
 import Movies from "./components/Movies";
 
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/movies",
         element: <Movies />,
+      },
+      {
+        path: "/movies/:id",
+        element: <Movie />,
       },
       {
         path: "/genres",

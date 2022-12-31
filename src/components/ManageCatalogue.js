@@ -1,11 +1,11 @@
-const ManageCatalog = () => {
+const ManageCatalogue = () => {
     return (
       <>
-        <h2>ManageCatalog </h2>
+        <h2>ManageCatalogue </h2>
         <hr />
       </>
     );
   };
   
-  export default ManageCatalog;
+  export default ManageCatalogue;
   
